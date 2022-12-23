@@ -1,22 +1,31 @@
-.infoText{
+.infoTemplate{
   border: 1px solid black;
   background-color: antiquewhite;
-  width: 500px;
-  margin: 10px 0;
+  margin: 25px 0;
   padding: 10px;
   border-radius: 5px;
-  line-height: 30px;
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 a{
   text-decoration: none;
   color: black;
 }
-.test{
+.infoImage{
   margin-right: 10px;
   width: 100px;
-  height: 100px;
   border-radius: 10%;
   object-fit: cover;
+}
+.title{
+  font-weight: bold;
+  font-size: 20px;
+}
+.header{
+  text-align: center; background-color: lightblue; padding: 30px; margin: 0; width: 100%
+}
+.header:hover{
+  background-color: darkblue;
+  color: white;
 }
